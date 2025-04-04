@@ -12,7 +12,7 @@ async function testMCP() {
   resultDiv.innerHTML = "⏳ Testing MCP server...";
 
   try {
-    const response = await fetch("https://mcp-server-test.onrender.com", {
+    const response = await fetch("https://mcp-server-test.onrender.comtest-mcp", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
