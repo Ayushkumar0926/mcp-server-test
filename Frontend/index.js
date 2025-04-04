@@ -12,7 +12,7 @@ async function testMCP() {
   resultDiv.innerHTML = "⏳ Testing MCP server...";
 
   try {
-    const response = await fetch("http://localhost:5000/test-mcp", {
+    const response = await fetch("https://mcp-backend-uifw.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
